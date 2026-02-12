@@ -3,22 +3,9 @@ import Link from 'next/link'
 import {useState, useEffect, useContext} from 'react'
 import { usePathname, useRouter } from 'next/navigation';
 
+export default function SidePanel({ session, prechats }) {
 
-
-type Chat = {
-    id: string;
-    chat_title: string;
-    createdAt: Date;
-};
-
-type SidePanelProps = {
-    session: any;
-    prechats: any[];
-};
-
-export default function SidePanel({session, prechats}: SidePanelProps) {
-
-    const [chats, setChats] = useState<any[]>(prechats);
+    const [chats, setChats] = useState(prechats);
     const [settings, setSettings] = useState(false);
     const [signOut, setSignOut] = useState(false);
     const pathname = usePathname()
@@ -29,9 +16,9 @@ export default function SidePanel({session, prechats}: SidePanelProps) {
 
 
 
-    function formatDateToReadableString(date: Date): string {
+    function formatDateToReadableString(date) {
         // Use Intl.DateTimeFormat to format the date
-        const options: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long' };
+        const options = { day: 'numeric', month: 'long' };
         const formatter = new Intl.DateTimeFormat('en-US', options);
     
         // Format the date

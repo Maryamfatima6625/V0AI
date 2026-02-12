@@ -2,7 +2,7 @@ import PromptMessage from "@/components/prompt-message"
 import Recent from "@/components/recent-messages";
 import { auth } from "@/auth";
 
-export default async function Home({ params } : {params: { id: string }}) {
+export default async function Home({ params }) {
   const session = await auth();
   const user = session?.user;
 

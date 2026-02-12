@@ -4,7 +4,7 @@ import { ChatContext } from '@/components/chat-context'
 import copy from 'clipboard-copy'
 import { usePathname } from 'next/navigation'
 
-export default function PromptMessage({ userImage }: { userImage: any}) {
+export default function PromptMessage({ userImage }) {
     const { messages } = useContext(ChatContext)
     const pathname = usePathname()
     const chatId = pathname=="/"? "" : pathname.split('/').pop()
@@ -12,7 +12,7 @@ export default function PromptMessage({ userImage }: { userImage: any}) {
 
 // functionality to scroll to bottom of messages
 useEffect(() => {
-    const element = document.querySelector(`#scroll-0`) as HTMLElement;
+    const element = document.querySelector(`#scroll-0`);
     element?.scrollIntoView({ behavior: 'smooth', block: 'end'});
   }, [messages])
 

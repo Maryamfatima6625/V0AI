@@ -7,10 +7,10 @@ import { ChatContext } from "@/components/chat-context";
 
 export default function PromptInput() {
     const { input, handleInputChange, handleSubmit } = useContext(ChatContext);
-    const formRef = useRef<HTMLFormElement>(null);
+    const formRef = useRef(null);
 
     useEffect(() => {
-        const handleKeyPress = (event:KeyboardEvent) => {
+        const handleKeyPress = (event) => {
           if (event.key === 'Enter'&&event.shiftKey===false) {
             event.preventDefault();
             formRef.current?.requestSubmit();

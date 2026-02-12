@@ -1,7 +1,7 @@
 import prisma from "@/prisma"
 
 
-export default async function Recent({chatId, userImage}: {chatId: string, userImage: any}) {
+export default async function Recent({ chatId, userImage }) {
 
         const messages = await prisma?.message.findMany(
             {

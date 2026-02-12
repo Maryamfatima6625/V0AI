@@ -25,7 +25,7 @@ export default function LandingPage() {
                             <path d="M15 13v2" />
                             <path d="M9 13v2" />
                         </svg>
-                        <span className="ml-2 text-lg font-medium">V0GPT</span>
+                        <span className="ml-2 text-lg font-medium">V0AI</span>
                     </a>
                     <a href="/api/auth/signin">
                     <button className="flex items-center justify-center rounded-md bg-[#f0e6ff] px-4 py-2 text-sm font-medium text-[#4b2e83] shadow transition-colors hover:bg-[#f0e6ff]/90 focus:outline-none focus:ring-1 focus:ring-[#f0e6ff] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#4b2e83] dark:text-[#f0e6ff] dark:hover:bg-[#4b2e83]/90 dark:focus:ring-[#4b2e83]">
@@ -36,10 +36,10 @@ export default function LandingPage() {
                     <div className="max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <div className="space-y-4 my-12 md:my-24 lg:my-32">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                                Unlock the Power of AI with V0GPT
+                                Unlock the Power of AI with V0AI
                             </h1>
                             <p className="text-gray-500 md:text-xl">
-                                V0GPT is a powerful AI assistant that can help you with a wide range
+                                V0AI is a powerful AI assistant that can help you with a wide range
                                 of tasks, from research and analysis to creative writing and
                                 problem-solving.
                             </p>
@@ -70,7 +70,7 @@ export default function LandingPage() {
                                 </svg>
                                 <h3 className="text-2xl font-bold">Ideation</h3>
                                 <p className="text-gray-500">
-                                    Unleash your creativity with V0GPT&apos;s ideation capabilities.
+                                    Unleash your creativity with V0AI&apos;s ideation capabilities.
                                     Generate innovative ideas, brainstorm solutions, and explore new
                                     possibilities.
                                 </p>
@@ -93,7 +93,7 @@ export default function LandingPage() {
                                 </svg>
                                 <h3 className="text-2xl font-bold">Research</h3>
                                 <p className="text-gray-500">
-                                    Leverage V0GPT&apos;s vast knowledge base to conduct thorough research,
+                                    Leverage V0AI&apos;s vast knowledge base to conduct thorough research,
                                     gather insights, and uncover valuable information to s
                                 </p>
                             </div>
@@ -115,7 +115,7 @@ export default function LandingPage() {
                                 </svg>
                                 <h3 className="text-2xl font-bold">Development</h3>
                                 <p className="text-gray-500">
-                                    Accelerate your development process with V0GPT&apos;s coding
+                                    Accelerate your development process with V0AI&apos;s coding
                                     capabilities. Generate code, debug issues, and optimize
                                     performance.
                                 </p>
@@ -130,10 +130,10 @@ export default function LandingPage() {
                         </div>
                             <div className="space-y-4 py-12 md:py-24 lg:py-32">
                                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                                    Unleash Your Potential with V0GPT
+                                    Unleash Your Potential with V0AI
                                 </h2>
                                 <p className="text-gray-500 md:text-xl">
-                                    V0GPT is designed to be your trusted AI companion
+                                    V0AI is designed to be your trusted AI companion
                                 </p>
                             </div>
                         </div>
